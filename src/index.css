@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.padding-arround{
+    padding: 10px;
 }
+.ag-centre{
+    text-align: center;
+}
+.mag-around{
+    margin-left: 8px;
+}
+.bck-color{
+    background: ghostwhite;
+}
+.img-boundry{
+    width: 94%;
+    background: ghostwhite;
+    margin: 3%;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    flex-shrink: 0;
+    width: 94%; 
+}
+.button-color{
+    background: gold;
+}  
+.button-color2{
+    background: greenyellow;
+} 
+
+
+@media screen and (min-width: 1024px ) {
+    .space{
+        position: relative;
+        left: 15%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .yearCard{
+        position: absolute;
+    }
+    .card{
+        margin: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1024px ) {
+    .space{
+        position: relative;
+        left: 20%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .yearCard{
+        position: absolute;
+    }
+    
+  }
+  @media screen and (max-width: 700px ) {
+    .space{
+        left: 0%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .yearCard{
+        position: relative;
+    }
+  }
